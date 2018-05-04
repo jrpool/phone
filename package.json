@@ -1,0 +1,28 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "Twilio tutorial modules",
+  "main": "make_call.js",
+  "scripts": {
+    "test": "node make_call"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrpool/twilio-tutorial.git"
+  },
+  "keywords": [
+    "twilio",
+    "voice",
+    "telephony"
+  ],
+  "author": "Jonathan Pool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrpool/twilio-tutorial/issues"
+  },
+  "homepage": "https://github.com/jrpool/twilio-tutorial#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "twilio": "^3.16.0"
+  }
+}
